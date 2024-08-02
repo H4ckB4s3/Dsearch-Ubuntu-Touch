@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Dsearch
+Exec=webapp-container --app-id="dsearch.dsearch" $@ www/index.html
+Icon=assets/icon.png
+Terminal=false
+Type=Application
+X-Lomiri-Touch=true

@@ -1,0 +1,15 @@
+{
+    "name": "dsearch.dsearch",
+    "description": "ENS & HNS Domain Resolver",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Dsearch",
+    "hooks": {
+        "dsearch": {
+            "apparmor": "dsearch.apparmor",
+            "desktop":  "dsearch.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Dsearch Team <info@dsearch.org>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}

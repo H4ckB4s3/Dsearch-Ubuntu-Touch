@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dsearch - Resolving ENS & HNS domains with their web2 Bridge</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <button class="settings-button">Status</button>
+        <div class="settings-menu">
+            <div class="status-container">
+                <div class="status" id="hns-status">
+                    <a href="https://hns.to" target="_blank" id="hns-text">hns.to</a>
+                    <div class="status-indicator" id="hns-indicator"></div>
+                </div>
+                <div class="status" id="limo-status">
+                    <a href="https://eth.limo" target="_blank" id="limo-text">eth.limo</a>
+                    <div class="status-indicator" id="limo-indicator"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <h1>DSEARCH</h1>
+        <h2>ENS &amp; HNS Bridge</h2>
+        <div class="search-container">
+            <form id="hns-form" class="search-box">
+                <input type="text" id="hns-input" class="search-input" placeholder="Enter a ENS or HNS domain">
+                <input type="submit" class="search-button" value="Go">
+            </form>
+        </div>
+       
+    </div>
+    <footer>
+        <p>&copy; 2024 Dsearch.org - <a href="https://ens.domains" target="_blank">ENS</a> & <a href="https://handshake.org" target="_blank">HNS</a> Bridge.</p>
+    </footer>
+    <script src="js/query.js"></script>
+    <script src="js/check.js"></script>
+</body>
+</html>
